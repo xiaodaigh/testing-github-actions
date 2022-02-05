@@ -1,7 +1,5 @@
 name: Run stuff
-on:
-  schedule:
-    - cron: '00 0 * * *'    
+on: [push]
 jobs:
   Run-Julia-ranking:
     runs-on: ubuntu-latest
