@@ -12,4 +12,4 @@ jobs:
         with:
           cache-registries: "true"        
       - run: julia -e 'println("Hello, World!")'
-      - run: ls      
+      - run: ls $GITHUB_WORKSPACE
