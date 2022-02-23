@@ -1,3 +1,3 @@
 using Pkg
 
-Pkg.add.("Revise", "JDF", "DataFrames", "StatsBase", "TableScrapper", "BadukGoWeiqiTools")
+Pkg.add.(["Revise", "JDF", "DataFrames", "StatsBase", "TableScrapper", "BadukGoWeiqiTools"])
